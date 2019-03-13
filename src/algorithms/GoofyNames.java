@@ -28,8 +28,13 @@ String name = JOptionPane.showInputDialog("What is your name?");
 			System.out.println(nam);
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			//    and lower case for ODD characters.
-
-			
+			for (int i = 0; i < name.length(); i++) {
+			if (i% 2 == 0) {
+				System.out.print(name.substring(i, i+1).toUpperCase());
+			}
+			else {
+				System.out.print(name.substring(i, i+1).toLowerCase());
+			}
 			// 6. ADD this String  (containing 1 char) to the goofyName String
 
 		
@@ -37,4 +42,4 @@ String name = JOptionPane.showInputDialog("What is your name?");
 
 	}
 }
-
+}
