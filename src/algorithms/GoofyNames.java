@@ -24,7 +24,7 @@ String name = JOptionPane.showInputDialog("What is your name?");
 	// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
 			//    HINT: replace 'start' and 'end' to get String with character at i 
-			String nam = name.substring(2,5);
+			String nam = name.substring(1,3);
 			System.out.println(nam);
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			//    and lower case for ODD characters.
