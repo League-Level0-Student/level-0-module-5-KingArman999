@@ -23,7 +23,7 @@ int num = Integer.parseInt(hours);
 	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
 if (num <= 2) {
-	JOptionPane.showMessageDialog(null, "Stop watching YouTube and write code!");
+	JOptionPane.showMessageDialog(null, "Stop watching Fortnite and write code!");
 }
 	// 3. If it is greater than or equal to 3 AND less than or equal to 5, tell them
 	// they're a Code Ninja
@@ -31,7 +31,7 @@ if (num <= 5&& num >=3) {
 	JOptionPane.showMessageDialog(null, "You're a coding NINJA FORTNITE!!!!");
 }
 	// 4. If it is more than 5, call the method below to play the Batman theme song.
-if (num <=5) {
+else if (num >=5) {
 	playBatmanTheme();
 } 
 }
