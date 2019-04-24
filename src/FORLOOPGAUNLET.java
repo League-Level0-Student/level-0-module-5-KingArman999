@@ -39,16 +39,18 @@ public static void main(String[] args) {
 //		System.out.println(i + " "+ (i+1) + " " + (i+2));
 //	}
 //}
-//for (int i = 1; i < 100; i+=10) {
-//	for (int j = 0; j < 1; j++) {
-//		System.out.println(i + " " + (i+1)+" "+(i+2)+" "+(i+3)+" "+(i+4)+" "+(i+5)+" "+(i+6)+" "+(i+7)+" "+(i+8)+" "+(i+9));
+//for (int i = 0; i < 100; i+=10) {
+//for (int j = 1; j < 11; j++) {
+//	System.out.print(i + j + " ");
 //	}
+//System.out.println();
 //}
-//for (int i = 1; i < 7; i+=1) {
-//for (int j = 1; j < 2; j+=1) {
-//	System.out.println(i);
+/* for (int i = 0; i < 7; i+=1) {
+ for (int j = 0; j < i; j+=1) {
+	System.out.print("*");
 
-//}	
-//}
+}	
+System.out.println();
+}*/
 }
 }	
